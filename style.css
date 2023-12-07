@@ -1,0 +1,123 @@
+body {
+  background-color: #131518;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containner {
+  background: radial-gradient(#232a34 0%, #181e27 100%);
+  margin: 0 24px;
+  font-family: Overpass;
+  font-weight: 400;
+  padding: 24px;
+  color: #969fad;
+  text-align: center;
+}
+
+main h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 16px 0 10px;
+  text-align: left;
+}
+
+.cicrcle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main p {
+  line-height: 22px;
+  width: 315px;
+  text-align: left;
+}
+
+.cicrcles {
+  display: flex;
+  padding: 24px 0;
+  justify-content: space-between;
+}
+
+button {
+  font-family: Overpass;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #fc7614;
+  padding: 12px 109px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1.87px;
+}
+.secondContainer {
+  background: radial-gradient(#232a34 0%, #181e27 100%);
+  margin: 0 24px;
+  font-family: Overpass;
+  font-weight: 400;
+  padding: 24px;
+  color: #969fad;
+  border-radius: 20px;
+  text-align: center;
+  display: none;
+}
+
+.information h4 {
+  margin-top: 32px;
+  background-color: #262e38;
+  display: inline-block;
+  color: #fc7614;
+  border-radius: 20px;
+  padding: 10px;
+}
+.one,
+.two,
+.three,
+.four,
+.five {
+  display: none;
+}
+.secondContainer h1 {
+  padding-top: 36px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.secondContainer p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .containner {
+    padding: 32px;
+  }
+  main h1 {
+    padding-top: 30px;
+    font-size: 28px;
+  }
+  .cicrcles {
+    padding-bottom: 32px;
+  }
+}
+.secondContainer p {
+  width: 340px;
+}
+
+.cicrcle:hover {
+  background-color: #fc7614;
+  color: #ffffff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #fc7614;
+  cursor: pointer;
+}
